@@ -5,7 +5,7 @@
 ## Deploy to Render (Recommended)
 
 1. Go to [render.com](https://render.com) and create a new **Web Service**
-2. Connect your GitHub repo: `Ketchum-super-intelligence-platform`
+2. Connect your GitHub repo: `Ketchum Super intelligence platform`
 3. Use these settings:
 
    - **Name**: `ketchum-super-intelligence`

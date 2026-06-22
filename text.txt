@@ -1,0 +1,17 @@
+# Exported from Render on 2026-06-22T05:51:05Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: Ketchums-Super-intelligence-platform
+      runtime: docker
+      repo: https://github.com/Evank253/Ketchums-Super-intelligence-platform
+      branch: main
+      plan: free
+      region: virginia
+      dockerContext: .
+      dockerfilePath: ./Dockerfile
+      autoDeployTrigger: commit
